@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesión</title>
+  <link rel="stylesheet" href="styleIC.css">
+</head>
+
+<body>
+
+  <div class="login-container">
+    <h2 class="titulo">Iniciar Sesión</h2>
+    <form action="#" method="post">
+      <div class="form-group">
+        <label class="fraces" for="email">Correo o Usuario:</label>
+        <input type="text" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label class="fraces" for="password">Contraseña:</label>
+        <div class="show-password">
+          <input type="password" id="password" name="password" required>
+          <div>
+            <input type="checkbox" id="showPassword"> Mostrar Contraseña
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="login-button">Iniciar Sesión</button>
+    </form>
+    <div class="options">
+      <a href="#">Recuperar Contraseña</a>
+      <div>
+
+        <img class="imagen" src="iconos/gmail.png" alt="Iniciar sesión con Gmail">
+
+        <img class="imagen" src="iconos/facebook.png" alt="Iniciar sesión con Facebook">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
